@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-a-Sketch</title>
+    <link rel="stylesheet" href="style.css">    
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1 id="title">Etch-a-Sketch...</h1>
+    <div class="container">
+        <!-- Configuration Panel -->
+        <div class="config-panel">
+            <h2>Configuration</h2>
+            <div class="config-group">
+                <div class="square-configuration">
+                    <label><h1 id="rangeText">16 X 16</h1></label>
+                    <input name=x  id="options" type=range min=16 max=100 step=1 value=16>
+                    <button class="btn" id="btn-number">Apply</button>
+                </div>
+                <input type="color" class="input-field" title="Choose Color">
+                <button class="btn">Clear Grid</button>
+                <button class="btn">Rainbow Mode</button>
+                <button class="btn">Eraser</button>
+            </div>
+            <!-- Logo Section -->
+            <div class="logo-container">
+                <img src="chinese dragon.gif" alt="42 Dragon Logo" class="logo" width="200" auto>
+                <a href="https://www.iker42.blog/" rel="noreferrer" target="_blank"><i>☀️The 42 Diseño Web</i></a>
+            </div>
+        </div>
+        <!-- Drawing Board -->
+        <div class="drawing-board">
+        </div>
+    </div>
+</body>
+</html>
