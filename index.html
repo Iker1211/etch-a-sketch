@@ -16,22 +16,20 @@
             <div class="config-group">
                 <div class="square-configuration">
                     <label><h1 id="rangeText">16 X 16</h1></label>
-                    <input name=x  id="options" type=range min=16 max=100 step=1 value=16>
-                    <button class="btn" id="btn-number">Apply</button>
+                    <input name="x" id="options" type="range" min="16" max="100" step="1" value="16">
                 </div>
-                <input type="color" class="input-field" title="Choose Color">
-                <button class="btn">Clear Grid</button>
-                <button class="btn">Rainbow Mode</button>
-                <button class="btn">Eraser</button>
+                <input type="color" class="input-field" id="colorPicker" title="Choose Color">
             </div>
-            <!-- Logo Section -->
-            <div class="logo-container">
-                <img src="chinese dragon.gif" alt="42 Dragon Logo" class="logo" width="200" auto>
-                <a href="https://www.iker42.blog/" rel="noreferrer" target="_blank"><i>☀️The 42 Diseño Web</i></a>
+            <div class="buttons">
+                <button class="btn" id="rainbowMode">Rainbow Mode</button>
+                <button class="btn" id="eraser">Eraser</button>
             </div>
         </div>
         <!-- Drawing Board -->
-        <div class="drawing-board">
+        <div class="drawing-board"></div>
+        <!-- Logo Section -->
+        <div class="logo-container">
+            <img src="chinese dragon.gif" alt="42 Dragon Logo" class="logo" width="200">
         </div>
     </div>
 </body>
