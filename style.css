@@ -18,12 +18,18 @@
 
 /* Global Styles */
 body {
+    position: relative;
     font-family: var(--font-family);
     line-height: var(--line-height);
     background-color: var(--blue);
     color: var(--white);
     padding: 20px;
     margin: 0;
+}
+
+.credit {
+    position: absolute;
+    top: 95%;
 }
 
 /* Title */
